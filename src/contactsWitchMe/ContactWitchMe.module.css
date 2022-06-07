@@ -1,0 +1,12 @@
+.contactsWitchMe {
+  height: 80vh;
+  background-color: rgb(79, 187, 187);
+}
+.contactsWitchMeContainer {
+  flex-direction: column;
+}
+.contactsWitchMeForm {
+  display: flex;
+
+  flex-direction: column;
+}

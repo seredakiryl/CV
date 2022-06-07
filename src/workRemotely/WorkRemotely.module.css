@@ -1,0 +1,18 @@
+.workRemotely {
+  height: 20vh;
+  background-color: rgb(224, 124, 124);
+}
+.workRemotelyContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.btnHire {
+  background-color: #555;
+  color: white;
+  font-size: 15px;
+  padding: 12px 30px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
