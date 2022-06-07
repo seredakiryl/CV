@@ -7,11 +7,11 @@ function ContactWitchMe() {
       <div className={`${styleContainer.container} ${s.contactsWitchMeContainer}`}>
         <h2 className={s.title}>Contact witch me</h2>
         <form className={s.contactsWitchMeForm}>
-          <input />
-          <input />
-          <textarea />
+          <input className={s.contactsInput} />
+          <input className={s.contactsInput} />
+          <textarea className={s.contactsTexarea} />
         </form>
-        <button className={s.btnHire}>HIRE ME</button>
+        <button className={s.btnSubmit}>Submit</button>
       </div>
     </div>
   );

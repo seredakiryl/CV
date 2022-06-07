@@ -1,5 +1,6 @@
 import "./App.css";
 import ContactWitchMe from "./contactsWitchMe/ContactWitchMe";
+import Footer from "./footer/Footer";
 import Header from "./header/Header";
 import Main from "./main/Main";
 import Myprojects from "./myProjects/MyProjects";
@@ -15,6 +16,7 @@ function App() {
       <Myprojects />
       <WorkRemotely />
       <ContactWitchMe />
+      <Footer />
     </div>
   );
 }

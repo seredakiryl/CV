@@ -5,8 +5,29 @@
 .contactsWitchMeContainer {
   flex-direction: column;
 }
-.contactsWitchMeForm {
-  display: flex;
 
+.contactsWitchMeForm {
+  width: 50vh;
+  height: 30vh;
+  display: flex;
+  border: 1px solid;
   flex-direction: column;
+  justify-content: space-between;
+}
+
+.contactsInput {
+  height: 5vh;
+}
+.contactsTexarea {
+  height: 15vh;
+}
+
+.btnSubmit {
+  background-color: #555;
+  color: white;
+  font-size: 15px;
+  padding: 12px 30px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
 }
