@@ -4,13 +4,14 @@ function Project(props) {
   return (
     <div className={s.project}>
       <div className={s.containerForImg}>
-        <div className={s.imgProect}></div>
-        <button className={s.projectBtn} alt="Show">
+        <a className={s.projectBtn} alt="Show">
           Show
-        </button>
+        </a>
       </div>
-      <h3 className={s.nameProject}>{props.nameProject}</h3>
-      <span className={s.description}>{props.description}</span>
+      <div className={s.nameAndDescriptionContainer}>
+        <h3 className={s.nameProject}>{props.nameProject}</h3>
+        <span className={s.description}>{props.description}</span>
+      </div>
     </div>
   );
 }

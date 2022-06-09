@@ -1,12 +1,14 @@
 .navs {
   width: 280px;
   display: flex;
+  padding-right: 10px;
   justify-content: space-around;
   text-decoration: none;
 }
 
 .nav {
   text-decoration: none;
+
   color: rgb(255, 255, 255);
   font-size: 18px;
 }

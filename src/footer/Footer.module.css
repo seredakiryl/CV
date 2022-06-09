@@ -1,21 +1,29 @@
 .footer {
-  height: 40vh;
+  min-height: 30vh;
   background-color: rgb(187, 94, 150);
   display: flex;
+  border: 1px solid;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 }
+
+.title {
+  background-color: beige;
+  margin: 15px 0px;
+}
+
 .footerContainer {
-  height: 10vh;
   border: 1px solid;
+  width: 280px;
   display: flex;
   justify-content: space-between;
 }
 
 .footerImgItem {
-  height: 72px;
-  width: 72px;
+  height: 50px;
+  width: 50px;
+  margin: 1px;
   background-color: rgb(85, 79, 79);
   outline: none;
 }
