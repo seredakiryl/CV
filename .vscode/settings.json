@@ -1,0 +1,9 @@
+{
+    "terminal.integrated.lineHeight": 0,
+    "editor.find.autoFindInSelection": "never",
+    "scss.format.newlineBetweenRules": false,
+    "scss.format.newlineBetweenSelectors": false,
+    "less.format.newlineBetweenRules": false,
+    "css.format.newlineBetweenSelectors": false,
+    "css.format.newlineBetweenRules": false
+}

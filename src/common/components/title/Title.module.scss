@@ -1,0 +1,26 @@
+@import '../../styles/sass/variablies.sass';
+
+
+.title {
+  margin: 25px 0;
+  position: relative;
+
+  h3 {
+    font-family: "Noto Serif Display", serif;
+    color: $textColor;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 1.2;
+  }
+
+  &:before {
+    position: absolute;
+    content: "";
+    width: 90px;
+    height: 2px;
+    background: $primarycolor;
+    bottom: -15px;
+    left: 50%;
+    transform: translate(-50%, 50%);
+  }
+}
