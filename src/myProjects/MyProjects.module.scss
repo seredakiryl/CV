@@ -1,23 +1,26 @@
+@import "../common/styles/sass/variablies.sass";
+@import "../common/styles/sass/mixins.sass";
+
 .myProjects {
-  min-height: 60vh;
-  background-color: #343a40;
-  display: flex;
-  flex-wrap: wrap;
+	min-height: 60vh;
+	background-color: $bgColor;
+	display: flex;
+	flex-wrap: wrap;
 
-  .skillsContainer {
-    flex-direction: column;
-    justify-content: flex-start;
+	.skillsContainer {
+		flex-direction: column;
+		justify-content: flex-start;
 
-    .projects {
-      width: 100%;
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: space-between;
-      align-items: flex-start;
+		.projects {
+			width: 100%;
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: space-between;
+			align-items: flex-start;
 
-      @media screen and (max-width: 1054px) {
-        justify-content: center;
-      }
-    }
-  }
+			@media screen and (max-width: 1054px) {
+				justify-content: center;
+			}
+		}
+	}
 }

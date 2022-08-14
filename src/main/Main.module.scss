@@ -1,0 +1,34 @@
+@import "../common/styles/sass/variablies.sass";
+@import "../common/styles/sass/mixins.sass";
+
+.main {
+	min-height: 100vh;
+	padding: 30px 0;
+	background-color: $bgColor;
+	display: flex;
+	.mainContainer {
+		flex-wrap: wrap;
+		.welcome {
+			min-width: 40vh;
+			padding: 30px 15px;
+			margin: 20px;
+			span {
+				@include text($titleFontFamily, 22px, 700, 1px);
+			}
+			h1 {
+				@include text($textFontFamily, 16px, 400, 1px);
+			}
+			p {
+				@include text($textFontFamily, 16px, 400, 1px);
+			}
+		}
+		.photo {
+			min-width: 45vh;
+			min-height: 60vh;
+			margin: 10px;
+			background-size: cover;
+			background-position: 50% 20%;
+			background-image: url("../assets/images/MyPhoto.jpg");
+		}
+	}
+}
