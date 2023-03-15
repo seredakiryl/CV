@@ -1,7 +1,7 @@
-@import '../../styles/sass/variablies.sass';
+@import "../../styles/sass/variablies.sass";
 
 .title {
-  margin: 25px 0;
+  margin-bottom: 40px;
   position: relative;
 
   h3 {
@@ -18,7 +18,7 @@
     width: 90px;
     height: 2px;
     background: $primarycolor;
-    bottom: -15px;
+    bottom: -5px;
     left: 50%;
     transform: translate(-50%, 50%);
   }
